@@ -8,19 +8,22 @@ const chapters = [
     name: 'Computer Society',
     description: 'Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo.',
     url: '#instagram',
-    members: '0'
+    members: '0',
+    path: '../../img/logo_CS.png'
   },
   {
     name: 'Power and Energy Society',
     description: 'B I C I C L E T A. Bicileta elétrica de controle remoto. Churrasqueira de controle remoto. ELÉTRICA BICICLETA.',
     url: '#instagram',
-    members: '0'
+    members: '0',
+    path: '../../img/logo_PES.png'
   },
   {
     name: 'Robotics and Automation Society',
     description: 'Aleixo Aleixo Aleixo Aleixo Aleixo. Aleixo Aleixo Aleixo Aleixo Aleixo. Aleixo Aleixo Aleixo Aleixo Aleixo. Aleixo Aleixo Aleixo Aleixo Aleixo.',
     url: '#instagram',
-    members: '0'
+    members: '0',
+    path: '../../img/logo_RAS.png'
   },
 ];
 
