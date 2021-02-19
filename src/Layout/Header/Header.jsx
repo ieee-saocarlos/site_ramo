@@ -1,17 +1,30 @@
 import { Nav, Navbar } from "react-bootstrap";
-import logo from "../../logo.svg";
+
+const logos = {
+  "home": {
+    "path": "../../logo_home.svg",
+    "width": 30,
+    "height": 30,
+    "alt": "home_logo"
+  }}
+
+function AddImage(nome){
+  return(
+    <img
+    src = {logos[nome].path}
+    width = {logos[nome].width}  
+    height = {logos[nome].height}
+    className="d-inline-block align-top"
+    alt = {logos[nome].alt}
+  />
+  )
+}
 
 function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="#home">
-        <img
-          src={logo}
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-          alt="React Bootstrap logo"
-        />
+        {AddImage("home")}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
