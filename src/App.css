@@ -57,3 +57,10 @@ body {
     transform: rotate(360deg);
   }
 }
+
+section>h2 {
+    padding: 1rem;
+    font-style: oblique;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
