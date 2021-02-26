@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button, Card, Col, Container, Jumbotron, Row } from "react-bootstrap";
+import CalendarProvider from "../../components/CalendarProvider";
 import logo from "../../logo.svg";
 
 export class Home extends Component {
@@ -57,6 +58,7 @@ export class Home extends Component {
                   bibendum nulla sed consectetur.
                 </p>
               </div>
+                <CalendarProvider />
             </Col>
           </Row>
         </Container>
