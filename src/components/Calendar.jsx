@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import ReactCalendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-
+import '../css/calendar.css'
 export default class Calendar extends Component {
     static propTypes = {
         data: PropTypes.array
@@ -22,7 +22,7 @@ export default class Calendar extends Component {
             }
         });
         //TODO: Criar componente para Evento com mais informações
-        return events.map(e => <p style={{fontSize:'small'}}>{e}</p>)
+        return events.map(e => <p><span>{e}</span></p>)
         
     }
 

@@ -1,0 +1,46 @@
+.react-calendar__month-view__days {
+    font-size: 12px;
+}
+
+.react-calendar__tile--active {
+    background-color: lightblue;
+    color: black;
+    border: 1px solid #36454F
+}
+
+.react-calendar__month-view__days button {
+    overflow: visible !important;
+}
+
+.react-calendar__month-view__days p {
+    background-color: #0462ab;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.react-calendar__month-view__days p span {
+    display: block;
+    position: relative;
+    visibility: hidden;
+    background-color: #36454F;
+    border: 1px solid white;
+    color: white;
+    z-index: 1;
+    width: 10rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    bottom: 225%;
+    left: 50%;
+    margin-left: -5rem;
+    padding: 3px 0;
+    border-radius: 0.5rem;
+    width: 10rem;
+}
+
+.react-calendar__month-view__days p:hover span {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
