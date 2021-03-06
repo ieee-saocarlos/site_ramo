@@ -1,0 +1,27 @@
+[
+    {
+        "img":"logo_CS.png",
+        "title":"Venha conhecer o CS!",
+        "description":"O Capitulo de computação do nosso IEEE é TOP!"
+    },
+    {
+        "img":"logo_PES.png",
+        "title":"Venha conhecer o PES!",
+        "description":"O PES do nosso IEEE é TOP, mas não chega aos pés do nosso CS."
+    },
+    {
+        "img":"logo_RAS.png",
+        "title":"Venha conhecer o RAS!",
+        "description":"O RAS do nosso IEEE é TOP, mas não chega aos pés do nosso CS."
+    },
+    {
+        "img":"logo_IEEE.png",
+        "title":"Venha conhecer o nosso ramo estudantil!",
+        "description":"O melhor ramo estudantil IEEE de todo o mundo... Esse bilhete é verdade."
+    },
+    {
+        "img":"logo_RAS.png",
+        "title":"Teste",
+        "description":"description test"
+    }
+]
