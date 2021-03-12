@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Button, Card, Col, Container, Jumbotron, Row } from "react-bootstrap";
 import logo from "../../logo.svg";
 import About from "./Sections/About/About";
+import WhatWeDo from "./Sections/WhatWeDo/WhatWeDo";
 
 export class BRac extends Component {
   static propTypes = {};
@@ -22,6 +23,7 @@ export class BRac extends Component {
 
         <Container>
           <Row>
+            <WhatWeDo></WhatWeDo>
             <About></About>
           </Row>
         </Container>
