@@ -28,7 +28,7 @@ const chapters = [
 ];
 
 // "About" page in a basic simplified version to test the Card components
-export class Home extends Component {
+export class About extends Component {
   static propTypes = {};
 
   render() {
@@ -51,4 +51,4 @@ export class Home extends Component {
   }
 }
 
-export default Home;
+export default About;
