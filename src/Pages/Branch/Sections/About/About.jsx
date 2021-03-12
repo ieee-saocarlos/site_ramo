@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { CardDeck } from "react-bootstrap";
-import Chapter from "../../../../Layout/Chapter/Chapter";
+import Chapter from "./Chapter/Chapter";
 
 // this variable simutales the .json file that will be received and parsed
 const chapters = [
