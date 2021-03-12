@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Button, Card, Col, Container, Jumbotron, Row } from "react-bootstrap";
+import { Col, Container, Jumbotron, Row } from "react-bootstrap";
 import logo from "../../logo.svg";
-import About from "./Sections/About/About";
+import Chapters from "./Sections/Chapters/Chapters";
 import AboutUs from "./Sections/AboutUs/AboutUs";
 import WhatWeDo from "./Sections/WhatWeDo/WhatWeDo";
 
@@ -38,7 +38,7 @@ export class BRac extends Component {
             <WhatWeDo></WhatWeDo>
           </Row>
           <Row>
-            <About></About>
+            <Chapters></Chapters>
           </Row>
         </Container>
       </div>
