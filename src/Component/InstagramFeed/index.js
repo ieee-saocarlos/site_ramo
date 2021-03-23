@@ -15,7 +15,7 @@ function InstagramFeed(props) {
                             tytle="instaFeed"
                             className="snapwidget-widget" 
                             allowtransparency="true" 
-                            frameborder="0" 
+                            frameBorder="0" 
                             scrolling="no" 
                             style={{border:'none', overflow:'hidden',  width:'100%', height:'100%'}}
                       >
