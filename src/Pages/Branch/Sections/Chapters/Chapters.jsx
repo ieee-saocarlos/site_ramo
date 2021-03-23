@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { CardDeck } from "react-bootstrap";
-import Chapter from "../../Layout/Chapter/Chapter";
+import ChapterCard from "./ChapterCard/ChapterCard";
 
 // this variable simutales the .json file that will be received and parsed
 const chapters = [
@@ -9,26 +9,25 @@ const chapters = [
     description: 'Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo. Allan é o brabo.',
     url: '#instagram',
     members: '0',
-    path: '../../img/logo_CS.png'
+    path: '../../logo_CS.png'
   },
   {
     name: 'Power and Energy Society',
     description: 'B I C I C L E T A. Bicileta elétrica de controle remoto. Churrasqueira de controle remoto. ELÉTRICA BICICLETA.',
     url: '#instagram',
     members: '0',
-    path: '../../img/logo_PES.png'
+    path: '../../logo_PES.png'
   },
   {
     name: 'Robotics and Automation Society',
     description: 'Aleixo Aleixo Aleixo Aleixo Aleixo. Aleixo Aleixo Aleixo Aleixo Aleixo. Aleixo Aleixo Aleixo Aleixo Aleixo. Aleixo Aleixo Aleixo Aleixo Aleixo.',
     url: '#instagram',
     members: '0',
-    path: '../../img/logo_RAS.png'
+    path: '../../logo_RAS.png'
   },
 ];
 
-// "About" page in a basic simplified version to test the Card components
-export class Home extends Component {
+export class Chapters extends Component {
   static propTypes = {};
 
   render() {
@@ -39,9 +38,9 @@ export class Home extends Component {
           <CardDeck>
             {
               chapters.map(chap =>
-                <Chapter
+                <ChapterCard
                   chapter={chap}
-                ></Chapter>
+                ></ChapterCard>
               )
             }
           </CardDeck>
@@ -51,4 +50,4 @@ export class Home extends Component {
   }
 }
 
-export default Home;
+export default Chapters;
