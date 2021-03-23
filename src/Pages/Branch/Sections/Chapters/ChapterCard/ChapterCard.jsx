@@ -4,7 +4,7 @@ import { Card, Badge } from 'react-bootstrap';
  * individual Card for each Chapter, to be used in the "Capítulos" Section
  * on the "About" Screen.
  */
-function Chapter({ chapter }) {
+function ChapterCard({ chapter }) {
   return (
     <Card bg="light" className="shadow">
       <Card.Header className="d-flex justify-content-end align-items-end">
@@ -30,4 +30,4 @@ function Chapter({ chapter }) {
   );
 }
 
-export default Chapter;
+export default ChapterCard;
