@@ -18,10 +18,10 @@ export class BRac extends Component {
                 <img alt="Card" src={logo} width="200" />
               </Col>
               <Col>
-                <h1 class="text-right">
+                <h1 className="text-right">
                   IEEE Student Branch <br /> USP São Carlos
                 </h1>
-                <p class="text-right">
+                <p className="text-right">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>

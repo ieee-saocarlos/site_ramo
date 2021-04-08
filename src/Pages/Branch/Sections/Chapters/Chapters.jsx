@@ -39,7 +39,7 @@ export class Chapters extends Component {
             {
               chapters.map(chap =>
                 <ChapterCard
-                  chapter={chap}
+                  chapter={chap} key={chap.name}
                 ></ChapterCard>
               )
             }
