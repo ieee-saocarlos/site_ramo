@@ -15,7 +15,7 @@ export class BRac extends Component {
           <Container>
             <Row>
               <Col>
-                <img alt="Card" src={logo} width="200" />
+                <img alt="Card" src="../../logo_home.svg" width="200" />
               </Col>
               <Col>
                 <h1 className="text-right">
