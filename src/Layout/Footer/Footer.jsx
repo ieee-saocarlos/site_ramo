@@ -53,9 +53,6 @@ function Footer() {
           <Col md="12">Contato | O Ramo | Endereço</Col>
         </Row>
         <Row>
-          <span className="text-muted">.</span>
-        </Row>
-        <Row>
           <Col md="3">{AddImage("cs")}</Col>
           <Col md="2">{AddImage("wie")}</Col>
           <Col md="2">{AddImage("ieee")}</Col>
