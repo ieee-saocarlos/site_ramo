@@ -4,6 +4,7 @@ import { CardsList } from "../../components/CardsList";
 import news from "../../news.json";
 
 import InstagramFeed from '../../components/InstagramFeed';
+import logo from '../../logo_home.svg';
 
 export class Home extends Component {
   static propTypes = {};
@@ -12,14 +13,24 @@ export class Home extends Component {
     return (
       <div>
         <Jumbotron>
-          <h1>Hello, world!</h1>
-          <p>
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
-          </p>
-          <p>
-            <Button variant="primary">Learn more</Button>
-          </p>
+          <Container>
+            <Row>
+              <Col>
+                <img alt="Card" src={logo} width="200" />
+              </Col>
+              <Col>
+                <h1 className="text-right">
+                  IEEE Student Branch <br /> USP São Carlos
+                </h1>
+                <p className="text-right">
+                  Nós somos um grupo de extensão ligado do campus de São Carlos da USP. Fazemos projetos principalmente ligados a tecnologia e no âmbito social.
+                </p>
+                <Col md={{ span: 8, offset: 4 }}>
+                  <Button block>Saiba Mais</Button>
+                </Col>
+              </Col>
+            </Row>
+          </Container>
         </Jumbotron>
 
         <Container>

@@ -13,11 +13,10 @@ function InstagramFeed(props) {
                     width:'90%', 
                     padding: 0, 
                     margin: 0,
-                    height: '100%'
                 }}
                 >
                     <h5 style={{color: 'black'}}>Conheça o nosso instagram @ieeeuspsc</h5>
-                    <div className="border rounded bg-light p-2">
+                    <div className="border rounded bg-light p-2" style={{height: '200px'}}>
                         <script src="https://snapwidget.com/js/snapwidget.js"></script>
                             <iframe src="https://snapwidget.com/embed/916363"  style={{zIndex: 3}}
                                 tytle="instaFeed"

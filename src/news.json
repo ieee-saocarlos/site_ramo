@@ -1,8 +1,13 @@
 [
     {
         "img":"insta_2021_ramo.png",
-        "title":"Venha conhecer o CS!",
+        "title":"Venha conhecer o nosso ramo estudantil!",
         "description":"O ramo estudantil dentro da USP de São Carlos conta com alunos da graduação e pós-graduação e desenvolve diversos projetos em diferentes áreas."
+    },
+    {
+        "img":"insta_2021_cs.png",
+        "title":"Venha conhecer o CS!",
+        "description":"Projetos em diversas áreas da computação, como Web Dev, I.A., micro-controladores, minicursos e treinamentos."
     },
     {
         "img":"insta_2021_pes.jpg",
@@ -13,10 +18,5 @@
         "img":"insta_2021_ras.png",
         "title":"Venha conhecer o RAS!",
         "description":"Disseminação de conhecimentos de robótica e áreas relacionadas, aplicando I.A., interações humano-máquina, robôs na indústria."
-    },
-    {
-        "img":"insta_2021_cs.png",
-        "title":"Venha conhecer o nosso ramo estudantil!",
-        "description":"Projetos em diversas áreas da computação, como Web Dev, I.A., micro-controladores, minicursos e treinamentos."
     }
 ]
