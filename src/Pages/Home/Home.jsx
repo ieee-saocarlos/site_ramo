@@ -3,7 +3,7 @@ import { Button, Col, Container, Jumbotron, Row } from "react-bootstrap";
 import { CardsList } from "../../components/CardsList";
 import news from "../../news.json";
 
-import InstagramFeed from '../../Component/InstagramFeed';
+import InstagramFeed from '../../components/InstagramFeed';
 
 export class Home extends Component {
   static propTypes = {};
