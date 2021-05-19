@@ -37,8 +37,8 @@ function AddImage(nome) {
   return (
     <img
       src={logos[nome].path}
-      width={logos[nome].width}
-      height={logos[nome].height}
+      // width={logos[nome].width}
+      height={100}
       className="d-inline-block align-top"
       alt={logos[nome].alt}
     />
@@ -53,11 +53,25 @@ function Footer() {
           <Col md="12">Contato | O Ramo | Endereço</Col>
         </Row>
         <Row>
-          <Col md="3">{AddImage("cs")}</Col>
-          <Col md="2">{AddImage("wie")}</Col>
-          <Col md="2">{AddImage("ieee")}</Col>
-          <Col md="2">{AddImage("ras")}</Col>
-          <Col md="3">{AddImage("pes")}</Col>
+          <Col md="3">
+            <a href="https://www.facebook.com/ieeecsuspsc/">{AddImage("cs")}</a>
+          </Col>
+          <Col md="2">
+            <a href="https://www.instagram.com/wieuspsaocarlos/">
+              {AddImage("wie")}
+            </a>
+          </Col>
+          <Col md="3">
+            <a href="https://www.facebook.com/ieeeuspsc">{AddImage("ieee")}</a>
+          </Col>
+          <Col md="2">
+            <a href="https://www.instagram.com/raschaptersaocarlos/">
+              {AddImage("ras")}
+            </a>
+          </Col>
+          <Col md="2">
+            <a href="https://www.facebook.com/ieeeuspsc">{AddImage("pes")}</a>
+          </Col>
         </Row>
         <Row>
           <Col md="12">
