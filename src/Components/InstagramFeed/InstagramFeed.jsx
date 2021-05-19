@@ -1,7 +1,4 @@
 import {Container} from 'react-bootstrap';
-import {useEffect} from 'react';
-import $ from 'jquery';
-
 
 function InstagramFeed(props) {
 
@@ -11,15 +8,15 @@ function InstagramFeed(props) {
                 <h5 style={{color: 'black'}}>Conheça o nosso instagram @ieeeuspsc</h5>
                 <div className="border rounded bg-light p-2" style={{height: "75%"}}>
                     <script src="https://snapwidget.com/js/snapwidget.js"></script>
-                        <iframe src="https://snapwidget.com/embed/916363"  style={{zIndex: 3}}
-                            tytle="instaFeed"
-                            className="snapwidget-widget" 
-                            allowtransparency="true" 
-                            frameBorder="0" 
-                            scrolling="no" 
-                            style={{border:'none', overflow:'hidden',  width:'100%', height:'100%'}}
-                      >
-                        </iframe>
+                    <iframe src="https://snapwidget.com/embed/916363"
+                        title="instaFeed"
+                        className="snapwidget-widget" 
+                        allowtransparency="true" 
+                        frameBorder="0" 
+                        scrolling="no" 
+                        style={{border:'none', overflow:'hidden',  width:'100%', height:'100%', zIndex: 3}}
+                    >
+                    </iframe>
                 </div>
             </a>
         </Container>
