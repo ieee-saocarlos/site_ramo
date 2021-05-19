@@ -24,7 +24,7 @@ function AddImage(nome) {
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
       <Link to="/" className="navbar-brand">
         {AddImage("home")}
       </Link>
