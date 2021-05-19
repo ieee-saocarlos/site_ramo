@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Col, Container, Jumbotron, Row } from "react-bootstrap";
-import logo from "../../logo.svg";
 import Chapters from "./Sections/Chapters/Chapters";
 import AboutUs from "./Sections/AboutUs/AboutUs";
 import WhatWeDo from "./Sections/WhatWeDo/WhatWeDo";

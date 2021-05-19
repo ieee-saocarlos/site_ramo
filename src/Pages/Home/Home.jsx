@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Button, Col, Container, Jumbotron, Row } from "react-bootstrap";
-import { CardsList } from "../../components/CardsList";
+import { CardsList } from "../../Components/NewsCard/CardsList";
 import news from "../../news.json";
 import CalendarProvider from "../../components/CalendarProvider";
 import logo from "../../logo.svg";
 
-import InstagramFeed from "../../Component/InstagramFeed";
+import InstagramFeed from "../../Components/InstagramFeed/InstagramFeed";
 
 export class Home extends Component {
     render() {
