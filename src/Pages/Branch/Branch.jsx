@@ -4,7 +4,7 @@ import Chapters from "./Sections/Chapters/Chapters";
 import AboutUs from "./Sections/AboutUs/AboutUs";
 import WhatWeDo from "./Sections/WhatWeDo/WhatWeDo";
 
-export class BRac extends Component {
+export class Branch extends Component {
   static propTypes = {};
 
   render() {
@@ -45,4 +45,4 @@ export class BRac extends Component {
   }
 }
 
-export default BRac;
+export default Branch;

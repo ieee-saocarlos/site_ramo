@@ -37,9 +37,9 @@ function Header() {
           <Link to="/ramo" className="nav-link">
             Ramo
           </Link>
-          <Link to="/nucleos" className="nav-link">
+          {/* <Link to="/nucleos" className="nav-link">
             Núcleos
-          </Link>
+          </Link> */}
           <Link to="/contato" className="nav-link">
             Contato
           </Link>

@@ -2,6 +2,7 @@ import Header from "./Layout/Header/Header";
 import "./App.css";
 import Footer from "./Layout/Footer/Footer";
 import Branch from "./Pages/Branch/Branch";
+import Contact from "./Pages/Contact/Contact";
 import Home from "./Pages/Home/Home";
 import { Route, Switch } from "react-router";
 
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Switch>
-        <Route path="/contato" component={Home} />
+        <Route path="/contato" component={Contact} />
         <Route path="/nucleos" component={Home} />
         <Route path="/ramo" component={Branch} />
         <Route path="/" component={Home} />

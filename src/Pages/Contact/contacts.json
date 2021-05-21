@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Computer Society",
+    "lg": "6",
+    "img": {
+      "src": "/logo_cs.png",
+      "width": null,
+      "height": 100,
+      "alt": "Computer Society"
+    },
+    "email": "ieeeuspsc@gmail.com",
+    "social": "https://www.facebook.com/ieeecsuspsc/",
+    "facebook": "https://www.facebook.com/ieeecsuspsc/",
+    "instagram": null
+  },
+  {
+    "name": "IEEE - USP São Carlos",
+    "lg": "6",
+    "img": {
+      "src": "/logo_ieee.png",
+      "width": null,
+      "height": 100,
+      "alt": "IEEE - USP São Carlos"
+    },
+    "email": "ieeeuspsc@gmail.com",
+    "social": "https://www.facebook.com/ieeeuspsc",
+    "facebook": "https://www.facebook.com/ieeeuspsc",
+    "instagram": "https://www.instagram.com/ieeeuspsc/"
+  },
+  {
+    "name": "Robotics and Automation Society",
+    "lg": "4",
+    "img": {
+      "src": "/logo_ras.png",
+      "width": null,
+      "height": 100,
+      "alt": "Robotics and Automation Society"
+    },
+    "email": "ieeeraschaptersaocarlos@gmail.com",
+    "social": "https://www.instagram.com/raschaptersaocarlos/",
+    "facebook": "https://www.facebook.com/ieeeraschaptersaocarlos/",
+    "instagram": "https://www.instagram.com/raschaptersaocarlos/"
+  },
+  {
+    "name": "Power and Energy Society",
+    "lg": "4",
+    "img": {
+      "src": "/logo_pes.png",
+      "width": null,
+      "height": 100,
+      "alt": "Power and Energy Society"
+    },
+    "email": "ieeeuspsc@gmail.com",
+    "social": "https://www.facebook.com/ieeeuspsc",
+    "facebook": "https://www.facebook.com/ieeeuspsc",
+    "instagram": null
+  },
+  {
+    "name": "WiE",
+    "lg": "4",
+    "img": {
+      "src": "/logo_wie.png",
+      "width": null,
+      "height": 100,
+      "alt": "WiE"
+    },
+    "email": "ieeeuspsc@gmail.com",
+    "social": "https://www.facebook.com/wieuspsaocarlos/",
+    "facebook": "https://www.facebook.com/wieuspsaocarlos/",
+    "instagram": "https://www.instagram.com/wieuspsaocarlos/"
+  }
+]
