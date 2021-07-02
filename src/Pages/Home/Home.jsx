@@ -6,8 +6,6 @@ import CalendarProvider from "../../Components/Calendar/CalendarProvider";
 
 import InstagramFeed from "../../Components/InstagramFeed/InstagramFeed";
 
-import InstagramFeed from "../../Components/InstagramFeed/InstagramFeed";
-
 export class Home extends Component {
     render() {
         return (
