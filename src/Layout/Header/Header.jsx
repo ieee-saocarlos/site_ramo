@@ -24,7 +24,7 @@ function AddImage(nome) {
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="white" variant="light">
       <Link to="/" className="navbar-brand">
         {AddImage("home")}
       </Link>
@@ -37,9 +37,9 @@ function Header() {
           <Link to="/ramo" className="nav-link">
             Ramo
           </Link>
-          <Link to="/nucleos" className="nav-link">
+          {/* <Link to="/nucleos" className="nav-link">
             Núcleos
-          </Link>
+          </Link> */}
           <Link to="/contato" className="nav-link">
             Contato
           </Link>

@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import { Col, Container, Jumbotron, Row } from "react-bootstrap";
-import logo from "../../logo.svg";
 import Chapters from "./Sections/Chapters/Chapters";
 import AboutUs from "./Sections/AboutUs/AboutUs";
 import WhatWeDo from "./Sections/WhatWeDo/WhatWeDo";
 
-export class BRac extends Component {
+export class Branch extends Component {
   static propTypes = {};
 
   render() {
@@ -15,7 +14,7 @@ export class BRac extends Component {
           <Container>
             <Row>
               <Col>
-                <img alt="Card" src={logo} width="200" />
+                <img alt="Card" src="../../logo_home.svg" width="200" />
               </Col>
               <Col>
                 <h1 className="text-right">
@@ -46,4 +45,4 @@ export class BRac extends Component {
   }
 }
 
-export default BRac;
+export default Branch;

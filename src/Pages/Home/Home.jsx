@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Button, Col, Container, Jumbotron, Row } from "react-bootstrap";
-import { CardsList } from "../../components/CardsList";
+import { CardsList } from "../../Components/NewsCard/CardsList";
+import InstagramFeed from "../../Components/InstagramFeed/InstagramFeed";
+
 import news from "../../news.json";
 
-import InstagramFeed from '../../components/InstagramFeed';
-import logo from '../../logo_home.svg';
 
 export class Home extends Component {
   static propTypes = {};
@@ -14,9 +14,9 @@ export class Home extends Component {
       <div>
         <Jumbotron>
           <Container>
-            <Row>
+           <Row>
               <Col>
-                <img alt="Card" src={logo} width="200" />
+                <img alt="Card" src="../../logo_home.svg" width="200" />
               </Col>
               <Col>
                 <h1 className="text-right">
@@ -36,7 +36,7 @@ export class Home extends Component {
         <Container>
           <Row>
             <Col md="8">
-              <CardsList data = { news } initNumberOfData = { 3 } />
+              <CardsList data={news} initNumberOfData={3} />
             </Col>
             <Col md="4" as="aside">
               <InstagramFeed />
