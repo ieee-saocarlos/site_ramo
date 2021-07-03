@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { Button, Col, Container, Jumbotron, Row } from "react-bootstrap";
 import { CardsList } from "../../Components/NewsCard/CardsList";
+import InstagramFeed from "../../Components/InstagramFeed/InstagramFeed";
+
 import news from "../../news.json";
 
-import InstagramFeed from "../../Components/InstagramFeed/InstagramFeed";
 
 export class Home extends Component {
   static propTypes = {};
@@ -13,7 +14,7 @@ export class Home extends Component {
       <div>
         <Jumbotron>
           <Container>
-            <Row>
+           <Row>
               <Col>
                 <img alt="Card" src="../../logo_home.svg" width="200" />
               </Col>
@@ -22,8 +23,11 @@ export class Home extends Component {
                   IEEE Student Branch <br /> USP São Carlos
                 </h1>
                 <p className="text-right">
-                  <Button variant="primary">Sobre Nós</Button>
+                  Nós somos um grupo de extensão ligado do campus de São Carlos da USP. Fazemos projetos principalmente ligados a tecnologia e no âmbito social.
                 </p>
+                <Col md={{ span: 8, offset: 4 }}>
+                  <Button block>Saiba Mais</Button>
+                </Col>
               </Col>
             </Row>
           </Container>

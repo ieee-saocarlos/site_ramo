@@ -1,27 +1,22 @@
 [
     {
-        "img":"logo_CS.png",
-        "title":"Venha conhecer o CS!",
-        "description":"O Capitulo de computação do nosso IEEE é TOP!"
-    },
-    {
-        "img":"logo_PES.png",
-        "title":"Venha conhecer o PES!",
-        "description":"O PES do nosso IEEE é TOP, mas não chega aos pés do nosso CS."
-    },
-    {
-        "img":"logo_RAS.png",
-        "title":"Venha conhecer o RAS!",
-        "description":"O RAS do nosso IEEE é TOP, mas não chega aos pés do nosso CS."
-    },
-    {
-        "img":"logo_IEEE.png",
+        "img":"insta_2021_ramo.png",
         "title":"Venha conhecer o nosso ramo estudantil!",
-        "description":"O melhor ramo estudantil IEEE de todo o mundo... Esse bilhete é verdade."
+        "description":"O ramo estudantil dentro da USP de São Carlos conta com alunos da graduação e pós-graduação e desenvolve diversos projetos em diferentes áreas."
     },
     {
-        "img":"logo_RAS.png",
-        "title":"Teste",
-        "description":"description test"
+        "img":"insta_2021_cs.png",
+        "title":"Venha conhecer o CS!",
+        "description":"Projetos em diversas áreas da computação, como Web Dev, I.A., micro-controladores, minicursos e treinamentos."
+    },
+    {
+        "img":"insta_2021_pes.jpg",
+        "title":"Venha conhecer o PES!",
+        "description":"Projetos voltados a sistemas elétricos de potência, explorando diversos aspectos técnicos."
+    },
+    {
+        "img":"insta_2021_ras.png",
+        "title":"Venha conhecer o RAS!",
+        "description":"Disseminação de conhecimentos de robótica e áreas relacionadas, aplicando I.A., interações humano-máquina, robôs na indústria."
     }
 ]
