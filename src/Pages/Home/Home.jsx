@@ -5,7 +5,6 @@ import InstagramFeed from "../../Components/InstagramFeed/InstagramFeed";
 
 import news from "../../news.json";
 
-
 export class Home extends Component {
   static propTypes = {};
 
